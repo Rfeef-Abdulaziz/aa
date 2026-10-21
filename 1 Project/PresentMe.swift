@@ -12,7 +12,7 @@ struct PresentMe: View {
         List{
             
             VStack{
-                Image(.images)
+                Image(.cat)
                     .resizable()// نصلح حجم الصوره وشكلها
                     .frame(width: 150, height: 150)
                     .clipShape(.circle)
