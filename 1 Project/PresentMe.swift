@@ -14,7 +14,7 @@ struct PresentMe: View {
             VStack{
                 Image(.images)
                     .resizable()// نصلح حجم الصوره وشكلها
-                    .frame(width: 170, height: 170)
+                    .frame(width: 150, height: 150)
                     .clipShape(.circle)
                 
                 Text("Rfeef")
