@@ -14,10 +14,10 @@ struct PresentMe: View {
             VStack{
                 Image(.images)
                     .resizable()// نصلح حجم الصوره وشكلها
-                    .frame(width: 150, height: 150)
+                    .frame(width: 170, height: 170)
                     .clipShape(.circle)
                 
-                Text("Rfeef")
+                Text("Rfeef,Aljoury")
                     .font(.title)// حجم النص غيره بنوع النص يعني هنا تايتل ف يصير كبير
                     .fontWeight(.semibold)// تغميق النص
                 
