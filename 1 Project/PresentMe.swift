@@ -12,7 +12,7 @@ struct PresentMe: View {
         List{
             
             VStack{
-                Image(.images)
+                Image(.cat)
                     .resizable()// نصلح حجم الصوره وشكلها
                     .frame(width: 170, height: 170)
                     .clipShape(.circle)
@@ -29,7 +29,7 @@ struct PresentMe: View {
             
             
             Section{
-                Text("HI")
+                Text("Senior Information Systems student in my final semester, I am bridging the gap between technical coding and strategic systems analysis. My focus is on blending my background in databases and security to help organizations navigate their digital transformation effectively.")
             } header: {
                 Text("About")
                 
